@@ -1,0 +1,21 @@
+
+  <div class="row">
+    <div>
+      <input type="text" [(ngModel)]="fName" placeholder="FirstName" />
+      <input type="text" [(ngModel)]="lName" placeholder="LastName" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <input type="text" [(ngModel)]="email" placeholder="EMAIL" />
+      <input type="text" [(ngModel)]="privilage" placeholder="PRIVILAGE" />
+    </div>
+  </div>
+
+  <div class="row">
+    
+      <button class="btn" (click)="register(fName,lName,email,privilage)">Submit</button>
+    
+  </div>
+  

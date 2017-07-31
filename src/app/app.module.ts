@@ -3,16 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './in-memory-data.service';
+
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HeroService } from './hero.service';
-import { DashboardComponent } from './dashboard.component';
-import { HeroesComponent } from './heroes.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import { HeroSearchComponent } from './hero-search.component';
+
+import { LabExercise1 } from './lab-exercise1-component';
+import { LabExercise2 } from './lab-exercise2-component';
+
 
 @NgModule({
   imports: [
@@ -20,16 +18,15 @@ import { HeroSearchComponent } from './hero-search.component';
     FormsModule,
     AppRoutingModule,
     HttpModule,
-    InMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 600 })
+ 
   ],
   declarations: [
     AppComponent,
-    DashboardComponent,
-    HeroSearchComponent,
-    HeroesComponent,
-    HeroDetailComponent,
+    LabExercise1,
+    LabExercise2
+
   ],
-  providers: [HeroService],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }

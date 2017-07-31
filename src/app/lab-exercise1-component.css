@@ -1,0 +1,64 @@
+input{
+   width: 10em;
+   height: 2em;
+   margin: 1vh;
+   padding: 4px;
+   font-size: 1em
+}
+.dropdown{
+     width: 11em;
+    height: 3em;
+    margin: 1vh;
+    padding: 4px;
+}
+span{
+    font-weight: bold;  
+    color: black 
+}
+.error{
+       font-weight: bold;  
+    color: red 
+}
+
+.row {
+      margin: 1em;
+}
+
+tr:nth-child(odd) {
+      background-color: #BEBEBE
+}
+
+table, td, th {
+      border: 2px solid black;
+      text-align: center;
+}
+
+table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 1em;
+}
+
+th, td {
+      padding: 15px;
+      color: black
+}
+
+
+th {
+      background-color: black;
+      font-weight: bold;
+      color: white
+}
+
+.index {
+      font-weight: bold;
+      color: black
+}
+.mainContainer{
+      border: 2px solid black;
+}
+
+
+
+

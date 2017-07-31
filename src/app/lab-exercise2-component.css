@@ -1,0 +1,30 @@
+input{
+   width: 10em;
+   height: 2em;
+   margin: 1vh;
+   padding: 4px;
+   font-size: 1em
+}
+.dropdown{
+     width: 11em;
+    height: 3em;
+    margin: 1vh;
+    padding: 4px;
+}
+span{
+    font-weight: bold;  
+    color: black 
+}
+.error{
+       font-weight: bold;  
+    color: red 
+}
+
+.row {
+      margin: 1em;
+}
+
+
+
+
+
